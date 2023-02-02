@@ -16,7 +16,7 @@ function App() {
           </NavbarBrand>
         </Container>
       </Navbar>
-      <CampsitesList/>
+      <CampsitesList />
     </div>
   );
 }
