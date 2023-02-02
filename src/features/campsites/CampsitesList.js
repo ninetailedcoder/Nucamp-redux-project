@@ -1,4 +1,4 @@
-import { Row } from 'reactstrap';
+import {Row,Col} from 'reactstrap';
 import {CAMPSITES} from '../../app/shared/CAMPSITES';
 import CampsiteCard from "./CampsiteCard";
 
