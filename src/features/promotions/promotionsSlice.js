@@ -44,5 +44,10 @@ const promotionsSlice = createSlice({
 export const promotionsReducer = promotionsSlice.reducer
 
 export const selectFeaturedPromotion = (state) => {
-    return state.promotions.promotionsArray.find((Promotion) => Promotion.featured)
+    return { 
+        featuredItem: state.promotions.promotionsArray.find((Promotion) => Promotion.featured),
+        isLoading: state.promotions.isLoading,
+        errMsg: state.promotions.errMsg
+
+    }
 }; 

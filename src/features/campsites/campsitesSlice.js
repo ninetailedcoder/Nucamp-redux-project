@@ -51,8 +51,14 @@ export const selectCampsiteById = (id) => (state) =>{
     return state.campsites.campsitesArray.find((campsite)=> campsite.id === parseInt(id));
 };
 
-export const selectFeaturedCampsite =(state) => {
-    return state.campsites.campsitesArray.find((campsite) => campsite.featured)
+export const selectFeaturedCampsite = (state) => {
+    return {
+        featuredItem: state.campsites.campsitesArray.find(
+            (campsite) => campsite.featured 
+        ), 
+        isLoading: state.campsites.isLoading, 
+        errMsg: state.campsites.errMsg 
+    }
 }
 // export const selectRandomCampsite = () => {
 // //     return CAMPSITES[Math.floor(CAMPSITES.length * Math.random())];
