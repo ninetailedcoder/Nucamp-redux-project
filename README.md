@@ -1,46 +1,39 @@
-# Getting Started with Create React App and Redux
+NuCamp: A better way to camp (React Version)
+----------------------------
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+A Single page web application version of my Nucamp website. This version was built with the following stack
+Html, CSS, JavaScript, React strap, React, Redux, Node.js, and deployed on Google Cloud Platform.
 
-## Available Scripts
+Follow the link for a live demo: https://react-deploy-test-379819.web.app/
 
-In the project directory, you can run:
+<img width="956" alt="Screenshot 2023-03-06 155234" src="https://user-images.githubusercontent.com/108363860/224524708-3413eaa6-46ab-4ff7-911e-842279c30c3a.png">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![FireShot Capture 006 - React Redux App - react-deploy-test-379819 web app](https://user-images.githubusercontent.com/108363860/224524755-35496e11-d7b8-4f1f-ab8c-b4a4dcc3ff17.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Tech stack used:
+----------------
+HTML
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+CSS
 
-### `npm run build`
+Javascript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React strap
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Node.js
 
-### `npm run eject`
+Google Cloud Platform
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run on your local machine:
+-----------------------------
+git clone https://github.com/ninetailedcoder/Nucamp-redux-project.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+cd Nucamp-redux-project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
